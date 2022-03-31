@@ -8,7 +8,7 @@ PR links can be found at the bottom of this document[^1]
 
 [GitHub Repo](https://github.com/AndresMillsGallego/auth-api)
 
-[Heroku Deployed Link](https://andresmills-bearer-auth.herokuapp.com/)
+[Heroku Deployed Link](https://andresmills-auth-api.herokuapp.com/)
 
 ![Class 08 UML](./class-08-UML.png)
 
