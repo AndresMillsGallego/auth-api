@@ -21,6 +21,10 @@ app.use(logger);
 app.use(morgan('dev'));
 app.use(express.urlencoded({ extended: true }));
 
+app.get('/', (request, response, next) => {
+  response.send('King Snorlax approves and welcomes you to his server');
+});
+
 app.use(authRoutes);
 
 app.use('/api/v1', v1Routes);
