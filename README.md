@@ -67,4 +67,4 @@ and/or
 
 ## Pull Requests
 
-[^1]: [Class 08 Pull Request](https://github.com/AndresMillsGallego/bearer-auth/pull/1)
+[^1]: [Class 08 Pull Request](https://github.com/AndresMillsGallego/auth-api/pull/1)
