@@ -8,7 +8,11 @@ const server = require('./src/server.js');
 
 const PORT = process.env.PORT || 3001;
 
-authDb.sync(), db.sync()
+authDb.sync()
   .then(() => {
-    server.start(PORT);
+    db.sync()
+      .then(() => {
+        server.start(PORT);
+
+      });
   });
