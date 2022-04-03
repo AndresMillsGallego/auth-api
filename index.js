@@ -2,7 +2,7 @@
 
 require('dotenv').config();
 
-const { db } = require('./src/models');
+const { db } = require('./src/models/index');
 const { authDb } = require('./src/auth/models/index');
 const server = require('./src/server.js');
 
