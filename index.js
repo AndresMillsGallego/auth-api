@@ -13,6 +13,6 @@ authDb.sync()
     db.sync()
       .then(() => {
         server.start(PORT);
-
-      });
-  });
+      }).catch(console.log)
+  
+  }).catch(console.log);

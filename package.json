@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "NODE_ENV=test node index.js",
+    "start": "NODE_ENV=production node index.js",
+    "dev": "NODE_ENV=test nodemon index.js",
     "init:config": "sequelize init:config",
     "db:create": "sequelize db:create",
-    "watch": "NODE_ENV=development nodemon index.js",
     "test-watch": "jest --runInBand --watchAll",
     "test": "jest --runInBand --verbose --coverage"
   },
